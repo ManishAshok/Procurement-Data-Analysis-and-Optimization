@@ -37,17 +37,17 @@
 <ul>
     <li><strong>Total Spend by Category</strong>: A bar chart showing total spend across different procurement categories.</li>
 </ul>
-<img src="sandbox:/mnt/data/total_spend_by_category.png" alt="Total Spend by Category">
+<img src="images/total_spend_by_category.png" alt="Total Spend by Category">
 
 <ul>
     <li><strong>Top 10 High-Spend Suppliers</strong>: A bar chart highlighting the top 10 suppliers based on spend.</li>
 </ul>
-<img src="sandbox:/mnt/data/top_10_spend_suppliers.png" alt="Top 10 High-Spend Suppliers">
+<img src="images/top_10_spend_suppliers.png" alt="Top 10 High-Spend Suppliers">
 
 <ul>
     <li><strong>Top 10 Supplier Performance Scores</strong>: A bar chart ranking the top suppliers based on performance metrics.</li>
 </ul>
-<img src="sandbox:/mnt/data/top_10_supplier_performance.png" alt="Top 10 Supplier Performance Scores">
+<img src="images/top_10_supplier_performance.png" alt="Top 10 Supplier Performance Scores">
 
 <h4>Tableau Dashboards:</h4>
 <p>In addition to Python visualizations, the project also includes interactive dashboards created in Tableau to provide further insights:</p>
