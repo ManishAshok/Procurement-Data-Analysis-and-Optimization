@@ -90,6 +90,21 @@
     <li><strong>Description:</strong> This dashboard provides recommendations on optimal spend allocations and potential cost savings based on the optimization model.</li>
 </ul>
 
+<h3>4. SQL Queries (Optional)</h3>
+<p>If your data resides in a relational database, you can use SQL to extract and preprocess the data before analyzing it in Python or Tableau. Below are examples of SQL queries you might use:</p>
+
+<h4>Data Extraction:</h4>
+<p>Example SQL query to extract procurement data from a database:</p>
+<pre><code>SELECT * FROM procurement_data WHERE purchase_date >= '2023-01-01';</code></pre>
+
+<h4>Data Aggregation:</h4>
+<p>Example SQL query to aggregate spend data by supplier:</p>
+<pre><code>SELECT supplier_id, SUM(total_spend) AS total_spend
+FROM procurement_data
+GROUP BY supplier_id;</code></pre>
+
+<p>After performing these SQL queries, you would export the results as CSV files and proceed with the Python scripts for further analysis.</p>
+
 <h2>How the Tableau Visualizations Were Created</h2>
 
 <h3>1. Connecting to Data</h3>
@@ -173,13 +188,4 @@
 <pre><code>python procurement_optimization_model.py</code></pre>
 
 <h3>Reviewing Results</h3>
-<p>After running the scripts, review the generated CSV files and Tableau dashboards for insights into procurement optimization.</p>
-
-<h2>Contributing</h2>
-<p>If you would like to contribute to this project, feel free to submit a pull request or open an issue for any improvements or suggestions.</p>
-
-<h2>License</h2>
-<p>This project is licensed under the MIT License - see the LICENSE file for details.</p>
-
-</body>
-</html>
+<p>After running the scripts, review the generated CSV files and Tableau dashboards for insights into procurement optimization.</
